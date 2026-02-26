@@ -5,7 +5,7 @@ A responsive React application that allows users to search for meals using a pub
 
 ## 🚀 Live Demo
 
-[Live Link](https://your-live-link-here.com)
+[Live Link](https://food-find-react.vercel.app/)
 
 ## ⚙️ How It Works
 
