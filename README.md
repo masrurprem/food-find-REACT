@@ -1,16 +1,34 @@
-# React + Vite
+# 🍽️ Food Finder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive React application that allows users to search for meals using a public food API and display results in a clean card-based layout.
+---
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[Live Link](https://your-live-link-here.com)
 
-## React Compiler
+## ⚙️ How It Works
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+1. User enters a meal name in the search bar.  
+2. The app fetches data from the MealDB API.  
+3. Results are stored in React state.  
+4. Meals are displayed dynamically. 
+5. If no results are found, a not found message block is rendered.  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🖼️ UI States
+
+- 🟢 **Initial state** → "Use the search bar to find food"  
+- 🔍 **Search results** → Food cards displayed  
+- ❌ **No results** → "No Food Found" message  
+
+---
+
+## 📱 Responsiveness
+- Currently, only well visible on desktop browsers.
+
+## Future Improvements
+- Adding Search Button
+- Adding Pagination
+- Adding responsiveness
